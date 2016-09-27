@@ -581,7 +581,7 @@ Animation keyframes
 }
 
 .aboutErika {
-  height: 290px;
+  height: 10px;
   width: auto;
 }
 
@@ -609,6 +609,10 @@ Animation keyframes
 .about-project{
   position: relative;
   top: 20px;
+}
+
+.project-card{
+  padding: 20px;
 }
 
 .btn {
