@@ -4,8 +4,11 @@ $( window ).load( function () {
 
 $( document ).ready( function () {
 
-    $( '.modal-trigger' ).leanModal();
+    // animations=============
+    new WOW().init();
+    // =======================
 
+    $( '.modal-trigger' ).leanModal();
 
     $( '.open-overlay' ).click( function () {
 
