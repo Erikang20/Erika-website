@@ -594,6 +594,12 @@ Animation keyframes
 /*================================================================ */
 /*My projects*/
 /*================================================================ */
+
+.fa-beer{
+  color: #FF8800;
+}
+
+
 .my-projects{
   padding-top: 30px;
   margin-top: 30px;
@@ -733,7 +739,24 @@ Animation keyframes
 .footer-social ul li a:hover {
   color: #009EE3;
 }
+.tooltip {
+  content: close-quote;
+    visibility: hidden;
+    width: 120px;
+    background-color: #555;
+    color: green;
+    text-align: center;
+    padding: 5px 0;
+    border-radius: 6px;
+}
 
-.fa-beer{
-  color: #FF8800;
+.tooltip:hover  {
+    visibility: visible;
+    opacity: 1;
+}
+
+.icons-sm{
+  
+  padding: 10px;
+  margin: 10px;
 }
